@@ -1,13 +1,13 @@
 import PropTypes from 'prop-types';
 import { StatisticsWrapper, StatisticsItem } from './Statistics.styled';
 
-export const Statistics = ({
+export function Statistics ({
   good,
   neutral,
   bad,
   total,
   positivePercentage,
-}) => {
+})  {
   return (
     <StatisticsWrapper>
       <StatisticsItem>Good: {good} </StatisticsItem>

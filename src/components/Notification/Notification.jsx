@@ -4,11 +4,13 @@ import {
   NotificationMessage,
 } from './Notification.styled';
 
-export const Notification = ({ message }) => (
+
+
+export function Notification({ message }) {
   <NotificationWrapper>
-    <NotificationMessage>{message}</NotificationMessage>
-  </NotificationWrapper>
-);
+  <NotificationMessage>{message}</NotificationMessage>
+</NotificationWrapper>
+};
 
 Notification.propTypes = {
   message: PropTypes.string.isRequired,
