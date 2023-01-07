@@ -42,8 +42,7 @@ const handleIncrement = button => {
   };
 
  
-  
-    return (
+      return (
       <GeneralWrapper>
         <Section title="Please leave feedback">
           <FeedbackOptions
@@ -70,7 +69,7 @@ const handleIncrement = button => {
   }
 
 
-  
+
 //  на классах
 
 
@@ -110,10 +109,16 @@ const handleIncrement = button => {
 //     return (
 //       <GeneralWrapper>
 //         <Section title="Please leave feedback">
+
+
+
 //           <FeedbackOptions
 //             options={buttonsName}
 //             onLeaveFeedback={this.handleIncrement}
 //           />
+
+
+
 //         </Section>
 
 //         <Section title="Statistics:">
